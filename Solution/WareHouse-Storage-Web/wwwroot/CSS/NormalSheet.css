@@ -40,6 +40,10 @@
 }
 
 .fun-text {
-    font-size: 40px;
-    color: seagreen;
+    text-align: center;
+    font-family: Comic Sans MS;
+    font-size: 30px;
+    text-decoration: wavy;
+    text-decoration-color: coral;
+    color:maroon;
 }

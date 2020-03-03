@@ -15,5 +15,10 @@ namespace WareHouse_Storage_Web.Controllers
             return View();
         }
 
+        public IActionResult Picture()
+        {
+            return View();
+        }
+
     }
 }
