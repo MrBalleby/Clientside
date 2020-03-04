@@ -20,5 +20,19 @@ namespace WareHouse_Storage_Web.Controllers
             return View();
         }
 
+        public IActionResult About()
+        {
+            return View();
+        }
+
+        public IActionResult Items()
+        {
+            return View();
+        }
+
+        public IActionResult Location()
+        {
+            return View();
+        }
     }
 }

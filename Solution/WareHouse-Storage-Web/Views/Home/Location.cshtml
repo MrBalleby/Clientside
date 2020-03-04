@@ -1,1 +1,20 @@
-﻿
+﻿<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="utf-8" />
+    <link href="~/CSS/NormalSheet.css" rel="stylesheet" type="text/css" />
+    <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?key=Ai0EF-JN9rgA4-BrZiXprhN5MZXLZbyn9Q6wAQGDWVgFHlBnxLZ8hCJv95m1wcFa&callback=loadMapScenario' async defer></script>
+    <script src="~/SCRIPTS/LocationService.js"></script>
+    <title>WareHouse Locations</title>
+
+
+</head>
+<body onload='loadMapScenario();'>
+    <h1 class="maintitle">LOCATION</h1>
+
+    <div id='printoutPanel'></div>
+
+    <div id='myMap' style='width: 100vw; height: 100vh;'></div>
+
+</body>
+</html>
