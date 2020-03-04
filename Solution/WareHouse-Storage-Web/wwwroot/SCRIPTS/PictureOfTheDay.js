@@ -9,8 +9,18 @@
                     $('#MediaTitle').append(JSON.stringify(data.title));
                     $('#Date').append(JSON.stringify(data.date));
                     $('#Explanation').append(JSON.stringify(data.explanation));
-                    $('#URL').append(JSON.stringify(data.url));
-                    
+                    $('#NasaLink').append(JSON.stringify(data.url));
+                    switch (data.media_type) {
+                        case 'image':
+                            $('#Picture').attr('src', data.url);
+                            $('#Frame').hide();
+                            break;
+                        case 'video':
+                            $('#Frame').attr('src', data.url);
+                            $('#Picture').hide();
+                            break;
+                        default:
+                    }
                 }
             });
         });
